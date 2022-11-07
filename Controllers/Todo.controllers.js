@@ -19,7 +19,6 @@ const postTodos = async (req, res) => {
         taskname,
         tag,
         status,
-        user_id
     })
     await new_todo.save();
     console.log(new_todo)
